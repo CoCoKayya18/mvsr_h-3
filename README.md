@@ -1,7 +1,7 @@
-#Overview
+# Overview
 This project consists of three main programs: Preprocessing, SiftMatching, and PoseEstimation. These programs are designed for feature extraction, matching, and pose estimation using SIFT features in images and videos. The necessary data files, including images, videos, and CSV files, are organized within the data directory. Camera calibration data is provided in the CameraStuff directory.
 
-##1. Preprocessing
+## 1. Preprocessing
 Responsible for:
 
 Extracting keypoints and descriptors from the image.
@@ -9,7 +9,7 @@ Saving keypoints and descriptors to a CSV file.
 Extracting selected keypoints (hardcoded in a vector) and saving the selected keypoint IDs in the activeSet CSV.
 Saving an image with the selected keypoints.
 
-##2. SiftMatching
+## 2. SiftMatching
 Responsible for:
 
 Detecting keypoints in a video and matching them with the image keypoints.
@@ -18,7 +18,7 @@ Saving an image with the best keypoints to compare with the preprocessing image.
 Note: The written index on the image is not correct, but the positions of the features are correct.
 Includes a PnP solver for experimental purposes.
 
-##3. PoseEstimation
+## 3. PoseEstimation
 Responsible for:
 
 Estimating the position of the image using the PnP solver.
