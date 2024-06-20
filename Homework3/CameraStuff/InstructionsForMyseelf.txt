@@ -1,0 +1,7 @@
+1. Start XLaunch
+2. In cmd in windows, go to this path: C:\Users\colli\OneDrive - FH Technikum Wien (1)\Dokumente\FH Technikum\Programme\For Ubuntu\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1 and Start nginx server by entering nginx.exe
+3. Start OBS Stream
+4. Ensure xhost is available for every client in WSL: xhost +
+5. Start docker image like this: docker run -it --privileged --network host -e DISPLAY=192.168.0.4:0 mvsr_hausubung_tres_new_v1 bash
+6. Go to Hausubung3/CameraStuff and write into the terminal: make run
+7. Run Ros calibration node like this: rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.025 image:=/camera/image_raw camera:=/camera
