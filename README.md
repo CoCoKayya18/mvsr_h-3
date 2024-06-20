@@ -25,7 +25,8 @@ Estimating the position of the image using the PnP solver.
 Reading real-world coordinates from the activeSet_XYZ CSV.
 Matching real-world coordinates with 2D coordinates.
 Retrieving all necessary information from the CSV files in the data folder.
-Data Organization
+
+## Data Organization
 Videos: Located in the data/videos folder.
 Images: Located in the data/images folder.
 CSV Files:
