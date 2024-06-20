@@ -28,8 +28,12 @@ Retrieving all necessary information from the CSV files in the data folder.
 
 ## Data Organization
 Videos: Located in the data/videos folder.
+
 Images: Located in the data/images folder.
+
 CSV Files:
 Main CSV files are located in the data folder.
+
 Debugging CSV files are saved in the data/csvs_for_debugging folder.
+
 Camera Calibration: Calibration information is located in the CameraStuff folder under the file CameraCalibration.yml. Python scripts for accessing the surface front camera and starting the ros_camera_calibration node are also included in this folder.
